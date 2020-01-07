@@ -41,10 +41,12 @@ def using_flatten(arr)
 end
 
 def using_delete(arr, element)
+  #This deletes the actaul element that matches the string or element inside the array
   arr.delete(element)
 end
 
 def using_delete_at(arr, element)
+  #delete_at deletes the element that is located at a certain index
   arr.delete_at(element)
 end
 
